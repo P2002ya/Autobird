@@ -1,0 +1,20 @@
+* {
+    margin:0;
+    padding: 0;
+  }
+  h1 {
+    color: orange;
+    font-weight: bold;
+    font-style: italic;
+    font-family: serif;
+}
+  .container {
+    margin-top: 50px;
+}
+
+body {
+    background:  url('../../images/tuktuk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  

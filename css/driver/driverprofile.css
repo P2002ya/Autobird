@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+body {
+  background-image: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)),
+    url("../../images/auto7.jpg");
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  color: #ddd;
+  height: 100vh;
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  backdrop-filter: blur(10px);
+}
+h1 {
+  color: orange;
+  font-weight: bold;
+  font-style: italic;
+  font-family: serif;
+}
+
+.shadow {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+.profile-tab-nav {
+  min-width: 250px;
+}
+
+.tab-content {
+  flex: 1;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+.profilecontainer {
+  background-color: transparent;
+  border-radius: 15px;
+  /* backdrop-filter: blur(30px); */
+  /* Set the background color to transparent */
+}
+.nav-pills a.nav-link {
+  padding: 15px 20px;
+  border-bottom: 2px solid #ddd;
+  border-radius: 3px;
+  border-color: #ddd;
+  color: hsl(0, 30%, 95%);
+}
+.nav-pills a.nav-link i {
+  width: 20px;
+}
+
+.img-circle img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 5px solid #fff;
+}

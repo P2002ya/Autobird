@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)),
+    url("../../images/auto6.jpeg");
+  background-size: cover;
+}
+.contact {
+  position: relative;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact .content h1 {
+  font-size: larger36px;
+  font-weight: 500;
+  color: #fff;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.container .contactInfo {
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+}
+.container .contactInfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+i {
+  min-width: 50px;
+  height: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 25px;
+  padding-top: 13px;
+  padding-left: 14px;
+}
+.container .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 14px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 500;
+}
+.container .contactInfo .box .text h2 {
+  font-weight: 500;
+  color: #00bcd4;
+}
+frame {
+  width: 40%;
+}
+@media screen and (max-width: 768px) {
+  .contact {
+    padding: 50px 10px; /* Adjusted padding */
+  }
+
+  .contact .content h1 {
+    font-size: 24px; /* Adjusted font size */
+    margin-bottom: 20px; /* Adjusted margin-bottom */
+  }
+
+  .container .contactInfo {
+    max-width: none; /* Removed max-width */
+  }
+
+  .frame {
+    height: 300px; /* Adjusted height */
+  }
+}

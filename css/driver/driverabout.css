@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)),
+      url("../../images/hand.jpg");
+    background-size: cover;
+  }
+  /* .heading h1 {
+      color: #faf3f2;
+      font-size: 55px;
+      text-align: center;
+      margin-top: 35px;
+  } */
+  
+  /* .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      margin: 65px auto;
+  } */
+  
+  .auto-content {
+    flex: 1;
+    width: 600px;
+    margin: 0 25px;
+    animation: fadeInUp 2s ease;
+  }
+  
+  .auto-content h2 {
+    font-size: 38px;
+    /* margin-bottom: 20px; */
+    color: #f78a0d;
+  }
+  
+  .auto-content p {
+    font-size: 24px;
+    line-height: 1.5;
+    /* margin-bottom: 40px; */
+    color: #9cb1b6;
+  }
+  
+  .auto-content button {
+    background-color: #ff4500;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .auto-content button:hover {
+    background-color: #ff6347;
+    transform: scale(1.1);
+  }
+  
+  .auto-image {
+    animation: fadeInRight 2s ease;
+  }
+  
+  /* i dont want any media wueries to be used bootstrap hai humare pass */
+  
